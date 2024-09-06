@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+.prent{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-one{
+    background-color: aliceblue;
+    border-radius: 10px;
+    /* padding: 10px; */
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin: 10px;
+}
+.head {
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+  border-radius: 10px;
+    background-color: goldenrod;
+    color: rgba(0, 0, 0, 0.697);
+}
+.head h3{
+    color: #f1f1f1;
+    margin-top: 20px;
+
+}
+
+.card-one h1{
+    padding: 10px;
+    font-family: "Arimo", sans-serif;
+    font-size: 55px;
+    margin-top: 20px;
+}
+.card-one h1 span{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.698);
+}
+.body{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.2);
+}
+.body i{
+    color: greenyellow;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.body .fa-xmark{
+    color: red;
+}
+
+.body p{
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.body-last{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.body-last i{
+    color: greenyellow;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.body-last .fa-xmark{
+    color: red;
+}
+.body-last p{
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+ .card-one button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+ }
+
+ 
+.card-two{
+        background-color: aliceblue;
+        border-radius: 10px;
+        /* padding: 10px; */
+        text-align: center;
+        width: 300px;
+        height: 550px;
+        margin: 10px;
+    }
+
+
+    .card-two h1{
+        padding: 10px;
+        font-family: "Arimo", sans-serif;
+        font-size: 55px;
+        margin-top: 10px;
+    }
+    .card-two h1 span{
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.698);
+    }
+    .card-two button{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: purple;
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        width: 150px;
+        font-size: 20px;
+     }
+     .head-two {
+        width: 300px;
+        height: 70px;
+        padding: 10px;
+      border-radius: 10px;
+        background-color: purple;
+        color: rgba(0, 0, 0, 0.697);
+    }
+    .head-two h3{
+        color: #f1f1f1;
+        margin-top: 20px;
+    
+    }
+    @media screen and (mix-width: 605px){
+        
+        
+    }
